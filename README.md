@@ -1,6 +1,6 @@
 # Wilux Void
 
-A minimal, AMOLED-friendly dark theme for [Helium Browser](https://imput.net/helium). Pure black frame with system-dark neutral grays — no eye-searing purple, no compromises.
+A minimal, AMOLED-friendly dark theme for [Helium Browser](https://helium.computer). Pure black frame with system-dark neutral grays — no eye-searing purple, no compromises.
 
 ## Preview
 
