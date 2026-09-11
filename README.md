@@ -11,6 +11,7 @@ A minimal, AMOLED-friendly dark theme for [Helium Browser](https://helium.comput
 | Inactive Tabs / Omnibox / NTP | `#1c1c1e` — system dark gray |
 | Text | `#ffffff` — white |
 | Links | `#0a84ff` — system blue |
+<img width="1624" height="1060" alt="Preview" src="https://github.com/user-attachments/assets/76fe9136-7362-48c8-8514-75f6a5eea9b5" />
 
 ## Installation
 
