@@ -17,17 +17,16 @@ jobs:
         uses: actions/checkout@v7
 
       # manifest.json is the only file Chromium reads — this theme declares no
-      # images. It is nested under a folder so unzipping yields a directory
-      # ready for "Load unpacked" rather than a loose file.
+      # images — and it must sit at the root of the archive for the
+      # drag-and-drop install on chrome://extensions to find it.
       - name: Build theme zip
         id: build
         run: |
           version="$(jq -r .version manifest.json)"
           echo "version=$version" >> "$GITHUB_OUTPUT"
 
-          mkdir -p "build/Helium-Void"
-          cp manifest.json "build/Helium-Void/manifest.json"
-          (cd build && zip -r -X "../Helium-Void-$version.zip" "Helium-Void")
+          zip -X "Helium-Void-$version.zip" manifest.json
+          unzip -l "Helium-Void-$version.zip"
 
       - name: Publish release
         env:
