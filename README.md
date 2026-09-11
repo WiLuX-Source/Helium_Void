@@ -1,4 +1,4 @@
-# Wilux Void
+# Helium Void
 
 A minimal, AMOLED-friendly dark theme for [Helium Browser](https://helium.computer). Pure black frame with system-dark neutral grays — no eye-searing purple, no compromises.
 
@@ -25,7 +25,7 @@ A minimal, AMOLED-friendly dark theme for [Helium Browser](https://helium.comput
 ## Notes
 
 - Incognito windows are not affected — this is a Helium limitation, not a theme issue. Even the Void Theme from the Chrome Web Store has the same behavior.
-- Built on Manifest V2 — Chrome's theme API does not support the `theme` key in MV3.
+- Built on Manifest V3.
 
 ## License
 

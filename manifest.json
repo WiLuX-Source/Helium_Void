@@ -1,7 +1,7 @@
 {
-  "manifest_version": 2,
-  "name": "Wilux Void",
-  "version": "1.2",
+  "manifest_version": 3,
+  "name": "Helium Void",
+  "version": "1.3",
   "description": "Pure black AMOLED frame with neutral system-dark grays. Minimal and easy on the eyes.",
   "theme": {
     "colors": {
