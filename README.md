@@ -16,6 +16,8 @@ A minimal, AMOLED-friendly dark theme for [Helium Browser](https://helium.comput
 
 ## Installation
 
+### Packed
+
 1. Download the latest `Helium-Void-x.y.zip` from [Releases](../../releases)
 2. Open `chrome://extensions` in Helium
 3. Drag the zip onto the page
@@ -23,7 +25,7 @@ A minimal, AMOLED-friendly dark theme for [Helium Browser](https://helium.comput
 
 Helium unpacks it into your profile, so the zip is safe to delete afterwards.
 
-### Or load it unpacked
+### Unpacked
 
 If you want to edit the colors yourself:
 
@@ -32,15 +34,12 @@ If you want to edit the colors yourself:
 3. Click **Load unpacked** → select the folder containing `manifest.json`
 
 > [!IMPORTANT]
-> Unlike the drag-and-drop route, this one never copies the files — Helium re-reads that folder on every launch. **Move or delete it and the theme goes with it.** Keep it somewhere permanent, not Downloads or a temp folder you'll clear out later.
+> Unlike the packed route, this one never copies the files — Helium re-reads that folder on every launch. **Move or delete it and the theme goes with it.** Keep it somewhere permanent, not Downloads or a temp folder you'll clear out later.
 
 > [!NOTE]
-> Helium doesn't always apply theme changes on extension refresh. If colors aren't updating, remove the theme and re-add it via Load unpacked. If it still won't load, fully quit and relaunch Helium first.
-
-## Notes
-
-- Incognito windows are not affected — this is a Helium limitation, not a theme issue. Even the Void Theme from the Chrome Web Store has the same behavior.
-- Built on Manifest V3.
+> - Helium doesn't always apply theme changes on extension refresh. If colors aren't updating, remove the theme and re-add it via Load unpacked. If it still won't load, fully quit and relaunch Helium first.
+> - Incognito windows are not affected — this is a Helium limitation, not a theme issue. Even the Void Theme from the Chrome Web Store has the same behavior.
+> - Built on Manifest V3.
 
 ## License
 
