@@ -33,7 +33,8 @@ Helium unpacks it into your profile, so the zip is safe to delete afterwards.
 > [!IMPORTANT]
 > Unlike the drag-and-drop route, this one never copies the files — Helium re-reads that folder on every launch. **Move or delete it and the theme goes with it.** Keep it somewhere permanent, not Downloads or a temp folder you'll clear out later.
 
-> Heads up: Helium doesn't always apply theme changes on extension refresh. If colors aren't updating, remove the theme and re-add it via Load unpacked. If it still won't load, fully quit and relaunch Helium first.
+> [!NOTE]
+> Helium doesn't always apply theme changes on extension refresh. If colors aren't updating, remove the theme and re-add it via Load unpacked. If it still won't load, fully quit and relaunch Helium first.
 
 </details>
 
