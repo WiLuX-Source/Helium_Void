@@ -1,0 +1,41 @@
+name: Release theme
+
+# Manual only. The tag comes from "version" in manifest.json,
+# so bump it there before running this.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+
+      # manifest.json is the only file Chromium reads — this theme declares no
+      # images. It is nested under a folder so unzipping yields a directory
+      # ready for "Load unpacked" rather than a loose file.
+      - name: Build theme zip
+        id: build
+        run: |
+          version="$(jq -r .version manifest.json)"
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+
+          mkdir -p "build/Helium-Void"
+          cp manifest.json "build/Helium-Void/manifest.json"
+          (cd build && zip -r -X "../Helium-Void-$version.zip" "Helium-Void")
+
+      - name: Publish release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VERSION: ${{ steps.build.outputs.version }}
+        run: |
+          gh release create "v$VERSION" \
+            --target "$GITHUB_SHA" \
+            --title "Helium Void $VERSION" \
+            --generate-notes \
+            "Helium-Void-$VERSION.zip"
