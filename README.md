@@ -23,18 +23,19 @@ A minimal, AMOLED-friendly dark theme for [Helium Browser](https://helium.comput
 
 Helium unpacks it into your profile, so the zip is safe to delete afterwards.
 
-<details>
-<summary><b>Or load it unpacked</b> — if you want to edit the colors</summary>
+### Or load it unpacked
+
+If you want to edit the colors yourself:
 
 1. Clone this repo, or unzip a release
 2. Open `chrome://extensions` and enable **Developer mode** (top-right toggle)
 3. Click **Load unpacked** → select the folder containing `manifest.json`
 
-> **❗ Important** — Unlike the drag-and-drop route, this one never copies the files: Helium re-reads that folder on every launch. **Move or delete it and the theme goes with it.** Keep it somewhere permanent, not Downloads or a temp folder you'll clear out later.
+> [!IMPORTANT]
+> Unlike the drag-and-drop route, this one never copies the files — Helium re-reads that folder on every launch. **Move or delete it and the theme goes with it.** Keep it somewhere permanent, not Downloads or a temp folder you'll clear out later.
 
-> **📝 Note** — Helium doesn't always apply theme changes on extension refresh. If colors aren't updating, remove the theme and re-add it via Load unpacked. If it still won't load, fully quit and relaunch Helium first.
-
-</details>
+> [!NOTE]
+> Helium doesn't always apply theme changes on extension refresh. If colors aren't updating, remove the theme and re-add it via Load unpacked. If it still won't load, fully quit and relaunch Helium first.
 
 ## Notes
 
