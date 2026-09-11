@@ -11,11 +11,15 @@
       "frame_incognito_inactive":                [  0,   0,   0],
 
       "toolbar":                                 [  7,   7,   7],
+      "toolbar_text":                            [255, 255, 255],
       "toolbar_button_icon":                     [255, 255, 255],
-      "control_background":                      [ 28,  28,  30],
+      "button_background":                       [ 28,  28,  30],
 
       "tab_text":                                [255, 255, 255],
       "background_tab":                          [ 28,  28,  30],
+      "background_tab_inactive":                 [ 28,  28,  30],
+      "background_tab_incognito":                [ 28,  28,  30],
+      "background_tab_incognito_inactive":       [ 28,  28,  30],
       "tab_background_text":                     [255, 255, 255],
       "tab_background_text_inactive":            [255, 255, 255],
       "tab_background_text_incognito":           [255, 255, 255],
@@ -29,12 +33,7 @@
       "ntp_background":                          [ 28,  28,  30],
       "ntp_text":                                [255, 255, 255],
       "ntp_link":                                [ 10, 132, 255],
-      "ntp_link_underline":                      [ 10, 132, 255],
-      "ntp_header":                              [242, 242, 247],
-      "ntp_section":                             [ 44,  44,  46],
-      "ntp_section_text":                        [255, 255, 255],
-      "ntp_section_link":                        [ 10, 132, 255],
-      "ntp_section_link_underline":              [ 10, 132, 255]
+      "ntp_header":                              [242, 242, 247]
     },
     "properties": {
       "ntp_logo_alternate": 1
