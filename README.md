@@ -19,7 +19,7 @@ A minimal, AMOLED-friendly dark theme for [Helium Browser](https://helium.comput
 ### Packed
 
 1. Download the latest `Helium-Void-x.y.zip` from [Releases](../../releases)
-2. Open `chrome://extensions` in Helium
+2. Open `chrome://extensions` and enable **Developer mode** (top-right toggle)
 3. Drag the zip onto the page
 4. Done
 
