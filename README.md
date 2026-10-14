@@ -8,6 +8,9 @@ A minimal, AMOLED-friendly dark theme for [Helium Browser](https://helium.comput
 
 WIP Windows image
 
+> [!TIP]
+> Want everything pure black? Check out [N3N-X's fork](https://github.com/N3N-X/Helium_Void_Windows) for an alternative full black approach.
+
 ## Installation
 
 ### Packed
