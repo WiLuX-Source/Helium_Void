@@ -6,13 +6,7 @@ A minimal, AMOLED-friendly dark theme for [Helium Browser](https://helium.comput
 
 ![Helium Void: pure black window frame with system-dark gray tabs and omnibox](https://github.com/user-attachments/assets/76fe9136-7362-48c8-8514-75f6a5eea9b5)
 
-| Element | Color |
-|---|---|
-| Frame | `#000000` — pure black |
-| Toolbar / Active Tab | `#070707` — near black |
-| Inactive Tabs / Omnibox / NTP | `#1c1c1e` — system dark gray |
-| Text | `#ffffff` — white |
-| Links | `#0a84ff` — system blue |
+WIP Windows image
 
 ## Installation
 
